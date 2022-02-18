@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Passion+One&display=swap');
+.outer-layer{
+   /* color:red; */
+   font-family: 'Inter', sans-serif;
+font-family: 'Passion One', cursive;
+   border:1px solid ;
+   background-color: skyblue;
+   font-size: 48px;
+   margin-top: 20%;
+  
+}

@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.nav-container{
+    /* border: 1px solid blue; */
+    width: 100%;
+    overflow: hidden;
+}
+.list-items{
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-text{
+    color:#27272E;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    /* line-height: 136.02%; */
+
+}
+.list-texttwo{
+    color: #5A5A5A;
+    font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+
+}
+.heading-container{
+    margin-top: 12px;
+    width: 100%;
+    height: 55vh; 
+    display: flex;
+    gap:30px;
+}
+.heading{
+    background: #EFE9FF;
+    border-radius: 20px;
+    /* border: 1px solid purple; */
+    display: flex;
+    gap:20px
+
+}
+
+.written-heading{ 
+    width: 60%;
+    padding: 15px;
+    /* border: 1px solid green; */
+  
+}
+.heading-one{
+    
+    font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+
+color: #6A53A2;
+}
+.heading-one + p{
+    
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #425466;
+}
+.heading-one + p + h6{
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #000000;
+margin-top: -8px;
+}
+
+.card-container{
+    /* border :1px solid red; */
+    padding: 7px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 3px rgba(12, 26, 75, 0.24), 0px 3px 8px rgba(50, 50, 71, 0.05);
+   border-radius:10px;
+  margin-top:12px
+}
+.card-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 10px;
+    color: #3C3C3C;
+}
+.profile-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.card-name{
+    color: #16192C;
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 14.2971px;
+/* line-height: 17px; */
+letter-spacing: -0.005em;
+}
+.card-name + p{
+    color: #425466;
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 11.12px;
+line-height: 18px;
+
+font-feature-settings: 'salt' on;
+}
+.card-detail{
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 12.7086px;
+line-height: 10px;
+color: #3C3C3C;
+
+}
+.card-button{
+    background: #6A53A2;
+    border-radius: 3px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 10px;
+    margin-left: 40%;
+    height: 20px;
+    /* width: 120px; */
+
+color: #FFFFFF;
+}
+.card-therapy h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.12px;
+    line-height: 13px;    
+    color: #1F2D3D;
+    
+}
+.card-therapy h3+p{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 9.53143px;
+line-height: 12px;
+
+color: #7A7A9D;
+}
+.card-therapy h3+p+div{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    
+    text-align: center;
+    
+    color: #353535;
+  gap:20px    
+}
+.card-lastlayer{
+    display: flex;
+    gap:70px;
+
+}
+.lastlayer-heading{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.12px;
+    line-height: 13px;
+
+    color: #969696;
+}
+.renew-part{
+    font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 11.12px;
+line-height: 13px;
+color: #1F2D3D;
+}
+
+
+.assessment-container{
+    /* border:1px solid red; */
+    width:70%;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(32, 56, 85, 0.05);
+    border-radius: 8px;
+}
+.assessment-container h1{
+    font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #020202;
+}
+
+.skills-bars p{
+    margin-bottom: 6px;
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #020202;
+  
+}
+.progress{
+    border-radius: 16px !important;
+    /* margin-bottom: 4px; */
+    height:10px;
+    background: #F4EFFF;
+}
+.progress-bar{
+    border-radius: 16px;
+    height:10px;
+    background: linear-gradient(270deg, #CAB5FF 0%, #6A53A2 100%) !important;
+} 
+.progress + h4{
+color: #222222;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+}
+
+.assessment{
+    /* border: 1px solid green; */
+    width: 100%;
+    height:100%;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 50px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 3px rgba(12, 26, 75, 0.24), 0px 3px 8px rgba(50, 50, 71, 0.05);
+}
+.numbers{
+    /* border: 1px solid red; */
+    width: 28px;
+    height: 27px;
+    border-radius: 50%;
+    background: #6A53A2;
+    border-radius: 16px;
+        color: aliceblue;
+   text-align: center;  
+   
+   font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.005em;
+color: #FFFFFF;
+
+    
+}
+.assessment-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.005em;
+    color: #27272E;
+    
+}
+.assessment-text p + p{
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 17px;
+color: #959595;
+
+}
+
+
+.assessment-btn{
+    background: #7860B4;
+border-radius: 6px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+padding: 8px;
+width:210px;
+margin-left:28vw ;
+margin-bottom: 4px;
+}
+.assessment-btn:hover{
+    cursor: pointer;
+    /* background: #7860B4; */
+}
+
+
+
+
+

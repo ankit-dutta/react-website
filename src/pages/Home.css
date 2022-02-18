@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Passion+One&family=Permanent+Marker&display=swap');
+
+.home-heading{
+   font-family: 'Inter', sans-serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.home-body{
+    /* border: 2px solid green; */
+    background:rgb(234, 241, 248);
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    height: 70vh;
+    color: rgb(126, 87, 233);
+    width: 70vw;
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+
+    /* text-align: center; */
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
